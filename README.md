@@ -15,3 +15,20 @@ This script fetches and counts all workspaces in a specified Terraform Enterpris
   - export TFE_TOKEN="your_tfe_token_here"
   - export ORG_NAME="your_org_name_here"
 
+## Usage
+
+1. **Clone the Repository**: Clone this repository to your local machine.
+
+   ```bash
+   git clone https://github.com/your-username/tfe-workspace-counter.git
+   cd tfe-workspace-counter
+
+2. **Make the Script Executable** (only required once):
+
+   ```bash
+   chmod +x count_workspaces.sh
+
+2. **Run the Script**:
+
+   ```bash
+   ./count_workspaces.sh
